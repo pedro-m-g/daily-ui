@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Daily UI #002 | Credit Card Checkout</title>
+</head>
+<body class="bg-gray-100">
+    <header class="shadow-lg bg-white">
+        <nav class="flex flex-wrap max-w-5xl mx-auto justify-between items-center">
+            <h1 class="px-4 py-4 text-green-600 font-bold text-sm flex space-x-1 select-none">
+                <span class="material-icons self-center">spa</span>
+                <small class="self-end">mini</small>
+                <span class="self-end font-light text-lg">Market</span>
+            </h1>
+            <form action="#" class="flex-grow order-2 md:order-1 mx-6 mb-4 md:mb-0">
+                <input type="text" class="w-full rounded-3xl border-gray-300 focus:ring-green-600 focus:border-green-600 caret-green-400 selection:bg-green-100" />
+            </form>
+            <ul class="order-1 md:order-2 flex">
+                <li>
+                    <a href="#" class="relative mr-8">
+                        <small class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-red-600 text-white absolute -top-5 -right-4">
+                            3
+                        </small>
+                        <span class="material-icons hover:text-green-600">shopping_cart</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <nav class="max-w-sm mx-auto py-8 relative">
+            <div class="absolute left-0 top-14 h-1 w-full bg-gray-400 z-0">&nbsp;</div>
+            <ul class="flex space-x-14 relative z-10">
+                <li class="flex flex-col items-center">
+                    <span class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-gray-400 mb-1">
+                        <span class="material-icons text-white">shopping_bag</span>
+                    </span>
+                    <span class="font-semibold text-gray-500">Cart</span>
+                </li>
+                <li class="flex flex-col items-center">
+                    <span class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-gray-400 mb-1">
+                        <span class="material-icons text-white">local_shipping</span>
+                    </span>
+                    <span class="font-semibold text-gray-500">Shipping</span>
+                </li>
+                <li class="flex flex-col items-center">
+                    <span class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-green-600 mb-1">
+                        <span class="material-icons text-white">credit_card</span>
+                    </span>
+                    <span class="font-semibold">Payment</span>
+                </li>
+                <li class="flex flex-col items-center">
+                    <span class="inline-flex items-center justify-center w-12 h-12 rounded-full border-4 bg-white border-gray-400 mb-1">
+                        <span class="material-icons text-gray-400">fact_check</span>
+                    </span>
+                    <span class="font-semibold text-gray-500">Check</span>
+                </li>
+            </ul>
+        </nav>
+        <div class="flex items-center max-w-sm mx-auto">
+            <span class="material-icons text-4xl text-gray-500">arrow_back_ios</span>
+            <div class="flex-grow bg-gray-900 text-white rounded-xl px-4 pt-2 pb-4 shadow-2xl">
+                <div class="flex justify-end">
+                    <img class="h-8" src="https://brand.mastercard.com/content/dam/mccom/brandcenter/thumbnails/mastercard_circles_92px_2x.png" alt="">
+                </div>
+                <div class="font-mono text-right text-xl mt-12 tracking-widest">
+                    XXXX XXXX XXXX 6219
+                </div>
+                <div class="flex justify-between mt-8">
+                    <span class="font-mono text-xs tracking-widest">
+                        PEDRO MARTÍN DEL CAMPO GONZÁLEZ
+                    </span>
+                    <span class="font-mono text-xs tracking-wide ml-4">
+                        10/02
+                    </span>
+                </div>
+            </div>
+            <span class="material-icons text-4xl text-gray-500">arrow_forward_ios</span>
+        </div>
+        <div class="max-w-sm mx-auto mt-6 space-y-4">
+            <button class="flex items-center justify-center w-full border-gray-500 py-2 space-x-2 bg-gray-500 text-white">
+                <span class="material-icons">check_circle_outline</span>
+                <span>Use this card</span>
+            </button>
+            <button class="flex items-center justify-center w-full bg-white border-2 border-gray-500 py-2 text-gray-500 space-x-2 hover:bg-gray-500 hover:text-white">
+                <span class="material-icons">add_circle_outline</span>
+                <span>Add another card</span>
+            </button>
+        </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
