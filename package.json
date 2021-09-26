@@ -7,6 +7,12 @@
     "serve": "vite preview"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.3.3",
+    "autoprefixer": "^10.3.5",
+    "install": "^0.13.0",
+    "npm": "^7.24.1",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.15",
     "vite": "^2.5.4"
   }
 }

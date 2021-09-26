@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Daily UI #001 | Sign Up</title>
+</head>
+
+<body class="bg-gray-900 text-white">
+    <div class="min-h-screen flex flex-col">
+        <header class="w-full">
+            <div class="max-w-4xl mx-auto flex justify-between items-stretch">
+                <nav>
+                    <h1
+                        class="inline-block font-mono font-semibold text-2xl px-4 py-2 bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-yellow-600">
+                        Monolith</h1>
+                </nav>
+                <nav class="space-x-2">
+                    <a href="#"
+                        class="inline-flex px-4 py-2 hover:border-b-2 hover:border-pink-900 bg-gray-700 active:border-2">Sign
+                        up</a>
+                    <a href="#"
+                        class="inline-flex px-4 py-2 hover:border-b-2 hover:border-pink-900 hover:bg-gray-700 active:border-2">Log
+                        in</a>
+                </nav>
+            </div>
+        </header>
+        <main class="max-w-4xl mx-auto px-4 py-4 w-full flex-grow">
+            <form action="#" class="max-w-sm mx-auto">
+                <h2 class="text-4xl font-semibold mb-4">Sign up</h2>
+                <div class="mb-4">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" autocomplete="name" autofocus class="block w-full bg-gray-600" />
+                </div>
+                <div class="mb-4">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" autocomplete="email" class="block w-full bg-gray-600" />
+                </div>
+                <div class="mb-4">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="block w-full bg-gray-600" autocomplete="new-password" />
+                </div>
+                <div class="mb-8">
+                    <label for="password_confirmation">Confirm your password</label>
+                    <input type="password" id="password_confirmation" class="block w-full bg-gray-600"
+                        autocomplete="off" />
+                </div>
+                <div class="mb-4">
+                    <button type="submit"
+                        class="block text-center w-full bg-pink-600 py-2 hover:bg-pink-500 active:bg-pink-700 uppercase tracking-wider">
+                        Sign up
+                    </button>
+                </div>
+            </form>
+        </main>
+        <footer class="max-w-4xl mx-auto px-4 py-4 w-full flex-shrink">
+            <small class="text-gray-600">
+                &copy; Pedro MG 2021
+            </small>
+        </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
