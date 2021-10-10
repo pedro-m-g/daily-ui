@@ -1,3 +1,5 @@
+const { colors } = require('tailwindcss/defaultTheme');
+
 module.exports = {
   mode: 'jit',
   purge: [
@@ -7,7 +9,11 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      borderColor: {
+        'left-triangle-gray': `${colors.gray[100]} transparent transparent transparent`
+      }
+    },
   },
   variants: {
     extend: {},
