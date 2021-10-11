@@ -10,8 +10,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      borderColor: {
-        'left-triangle-gray': `${colors.gray[100]} transparent transparent transparent`
+      height: {
+        calculator: '600px'
       }
     },
   },
