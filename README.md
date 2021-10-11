@@ -1,6 +1,6 @@
 # Daily UI
 
-Hi! These are my [Daily UI](https://www.dailyui.co/) challenges. These examples are implemented using [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/).
+Hi! These are my [Daily UI](https://www.dailyui.co/) challenges. These examples are implemented using [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/). You can see it live at [https://pedro-m-g.github.io/daily-ui/](https://pedro-m-g.github.io/daily-ui/).
 
 ## File structure
 
