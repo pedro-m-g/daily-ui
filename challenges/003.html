@@ -13,126 +13,137 @@
 
 <body>
   <header class="bg-gray-500 px-8 py-2">
-    <h1 class="font-black text-xl text-white">K-Board</h1>
+    <div class="mx-auto max-w-5xl">
+      <h1 class="font-black text-xl text-white">K-Board</h1>
+    </div>
   </header>
   <main>
-    <section class="min-h-screen bg-gray-100 grid items-center lg:grid-cols-2">
-      <div class="px-8">
-        <h2 class="font-light text-6xl">
-          Get the job done <span class="material-icons text-6xl text-yellow-300">bolt</span>
-        </h2>
-        <small class="text-2xl mt-4 inline-block text-gray-600">
-          and track it easily
-        </small>
-        <div>
-          <a href="#features"
-            class="bg-green-600 mt-4 px-6 py-2 font-bold text-white text-xl hover:bg-green-500 inline-block">
-            Get started
-          </a>
+    <section class="bg-gray-100">
+      <div class="mx-auto max-w-5xl grid items-center lg:grid-cols-2 min-h-screen">
+        <div class="px-8 py-8">
+          <h2 class="font-light text-6xl">
+            Get the job done <span class="material-icons text-6xl text-yellow-300">bolt</span>
+          </h2>
+          <small class="text-2xl mt-4 inline-block text-gray-600">
+            and track it easily
+          </small>
+          <div>
+            <a href="#features"
+              class="bg-green-600 mt-4 px-6 py-2 font-bold text-white text-xl hover:bg-green-500 inline-block">
+              Get started
+            </a>
+          </div>
+        </div>
+        <div class="px-8 py-8 flex justify-center">
+          <div class="border-8 border-black w-52 h-96 rounded-xl px-2 pt-6 overflow-hidden relative">
+            <div
+              class="absolute w-1/2 h-3 bg-black top-0 left-1/4 rounded-bl-xl rounded-br-xl flex items-center justify-center space-x-4">
+              <div class="w-2 h-2 bg-gray-500 rounded-full"></div>
+              <div class="w-2 h-2 bg-gray-500 rounded-full"></div>
+            </div>
+            <div class="bg-gray-500 text-white px-2 py-2">
+              <h3 class="font-bold">Backlog</h3>
+            </div>
+            <div class="bg-gray-300 px-2 py-2 space-y-2">
+              <div class="bg-white py-1 px-2 shadow">
+                <div class="flex justify-between">
+                  <h4 class="font-semibold text-gray-700">Kickstart</h4>
+                  <span class="material-icons text-gray-700 cursor-pointer">more_horiz</span>
+                </div>
+                <hr />
+                <p class="font-light mt-2">
+                  Create an amazing tech :D
+                </p>
+              </div>
+              <div class="bg-white py-1 px-2 shadow">
+                <div class="flex justify-between">
+                  <h4 class="font-semibold text-gray-700">Coffee</h4>
+                  <span class="material-icons text-gray-700 cursor-pointer">more_horiz</span>
+                </div>
+                <hr />
+                <p class="font-light mt-2">
+                  Buy some coffee
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="px-8 flex justify-center">
-        <div class="border-8 border-black w-52 h-96 rounded-xl px-2 pt-6 overflow-hidden relative">
-          <div
-            class="absolute w-1/2 h-3 bg-black top-0 left-1/4 rounded-bl-xl rounded-br-xl flex items-center justify-center space-x-4">
-            <div class="w-2 h-2 bg-gray-500 rounded-full"></div>
-            <div class="w-2 h-2 bg-gray-500 rounded-full"></div>
+    </section>
+    <section id="features" class="min-h-screen">
+      <div class="px-8 py-4 mx-auto max-w-5xl">
+        <h2 class="font-bold text-4xl text-gray-700">Features</h2>
+        <div class="grid gap-4 lg:grid-cols-3 mt-4">
+          <div class="shadow-lg px-4 py-4 border-l-4 border-green-600">
+            <h3 class="font-semibold text-xl text-gray-500 flex items-center space-x-2">
+              <span class="material-icons">calendar_today</span>
+              <span>Manage your projects</span>
+            </h3>
+            <p>
+              Start tracking your projects in no time.
+            </p>
           </div>
-          <div class="bg-gray-500 text-white px-2 py-2">
-            <h3 class="font-bold">Backlog</h3>
+          <div class="shadow-lg px-4 py-4 border-l-4 border-green-600">
+            <h3 class="font-semibold text-xl text-gray-500 flex items-center space-x-2">
+              <span class="material-icons">dashboard</span>
+              <span>Split your work in boards</span>
+            </h3>
+            <p>
+              K-Board won't be an intruder. Use the workflows you already have.
+            </p>
           </div>
-          <div class="bg-gray-300 px-2 py-2 space-y-2">
-            <div class="bg-white py-1 px-2 shadow">
-              <div class="flex justify-between">
-                <h4 class="font-semibold text-gray-700">Kickstart</h4>
-                <span class="material-icons text-gray-700 cursor-pointer">more_horiz</span>
-              </div>
-              <hr />
-              <p class="font-light mt-2">
-                Create an amazing tech :D
-              </p>
+          <div class="shadow-lg px-4 py-4 border-l-4 border-green-600">
+            <h3 class="font-semibold text-xl text-gray-500 flex items-center space-x-2">
+              <span class="material-icons">schedule</span>
+              <span>Track your times</span>
+            </h3>
+            <p>
+              K-Board will give you useful insights and metrics. Measure and improve your team performance.
+            </p>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-4 mt-8 xl:grid-cols-4">
+          <div>
+            <div class="bg-gray-500 text-white px-4 py-1">
+              <h3 class="font-bold text-xl">Backlog</h3>
             </div>
-            <div class="bg-white py-1 px-2 shadow">
-              <div class="flex justify-between">
-                <h4 class="font-semibold text-gray-700">Coffee</h4>
-                <span class="material-icons text-gray-700 cursor-pointer">more_horiz</span>
+            <div class="bg-gray-300 px-4 py-4 space-y-4 backlog-board">
+              <div class="bg-white py-1 px-2 shadow">
+                <div class="flex justify-between">
+                  <h4 class="font-semibold text-gray-700">Kickstart</h4>
+                  <span class="material-icons text-gray-700 cursor-pointer">more_horiz</span>
+                </div>
+                <hr />
+                <p class="font-light mt-2">
+                  Create an amazing tech :D
+                </p>
               </div>
-              <hr />
-              <p class="font-light mt-2">
-                Buy some coffee
-              </p>
+              <div class="bg-white py-1 px-2 shadow coffee-card">
+                <div class="flex justify-between">
+                  <h4 class="font-semibold text-gray-700">Coffee</h4>
+                  <span class="material-icons text-gray-700 cursor-pointer">more_horiz</span>
+                </div>
+                <hr />
+                <p class="font-light mt-2">
+                  Buy some coffee
+                </p>
+              </div>
             </div>
+          </div>
+          <div>
+            <div class="bg-gray-500 text-white px-4 py-1">
+              <h3 class="font-bold text-xl">In Progress</h3>
+            </div>
+            <div class="bg-gray-300 px-4 py-4 space-y-4 in-progress-board"></div>
           </div>
         </div>
       </div>
     </section>
-    <section id="features" class="min-h-screen px-8 py-4">
-      <h2 class="font-bold text-4xl text-gray-700">Features</h2>
-      <div class="grid gap-4 lg:grid-cols-3 mt-4">
-        <div class="shadow-lg px-4 py-4 border-l-4 border-green-600">
-          <h3 class="font-semibold text-xl text-gray-500 flex items-center space-x-2">
-            <span class="material-icons">calendar_today</span>
-            <span>Manage your projects</span>
-          </h3>
-          <p>
-            Start tracking your projects in no time.
-          </p>
-        </div>
-        <div class="shadow-lg px-4 py-4 border-l-4 border-green-600">
-          <h3 class="font-semibold text-xl text-gray-500 flex items-center space-x-2">
-            <span class="material-icons">dashboard</span>
-            <span>Split your work in boards</span>
-          </h3>
-          <p>
-            K-Board won't be an intruder. Use the workflows you already have.
-          </p>
-        </div>
-        <div class="shadow-lg px-4 py-4 border-l-4 border-green-600">
-          <h3 class="font-semibold text-xl text-gray-500 flex items-center space-x-2">
-            <span class="material-icons">schedule</span>
-            <span>Track your times</span>
-          </h3>
-          <p>
-            K-Board will give you useful insights and metrics. Measure and improve your team performance.
-          </p>
-        </div>
+    <footer class="bg-gray-100">
+      <div class="mx-auto max-w-5xl px-8 py-4">
+        &copy; Pedro M G
       </div>
-      <div class="grid grid-cols-2 gap-4 mt-8 xl:grid-cols-4">
-        <div>
-          <div class="bg-gray-500 text-white px-4 py-1">
-            <h3 class="font-bold text-xl">Backlog</h3>
-          </div>
-          <div class="bg-gray-300 px-4 py-4 space-y-4 backlog-board">
-            <div class="bg-white py-1 px-2 shadow">
-              <div class="flex justify-between">
-                <h4 class="font-semibold text-gray-700">Kickstart</h4>
-                <span class="material-icons text-gray-700 cursor-pointer">more_horiz</span>
-              </div>
-              <hr />
-              <p class="font-light mt-2">
-                Create an amazing tech :D
-              </p>
-            </div>
-            <div class="bg-white py-1 px-2 shadow coffee-card">
-              <div class="flex justify-between">
-                <h4 class="font-semibold text-gray-700">Coffee</h4>
-                <span class="material-icons text-gray-700 cursor-pointer">more_horiz</span>
-              </div>
-              <hr />
-              <p class="font-light mt-2">
-                Buy some coffee
-              </p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="bg-gray-500 text-white px-4 py-1">
-            <h3 class="font-bold text-xl">In Progress</h3>
-          </div>
-          <div class="bg-gray-300 px-4 py-4 space-y-4 in-progress-board"></div>
-        </div>
-      </div>
-    </section>
+    </footer>
   </main>
   <script type="module" src="/main.js"></script>
 </body>
