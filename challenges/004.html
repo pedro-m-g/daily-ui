@@ -12,7 +12,7 @@
 
 <body>
   <main class="min-h-screen bg-yellow-50 flex items-center justify-center px-2">
-    <div class="bg-gray-800 rounded-3xl shadow-inner pt-8 pb-4 px-2">
+    <div class="bg-gray-800 rounded-3xl shadow-2xl pt-8 pb-4 px-2">
       <div class="bg-gray-900 shadow-inner p-2">
         <div class="bg-green-100 font-mono py-1 px-2">
           <div>
@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="pt-4">
-        <div class="grid grid-cols-6 font-mono">
+        <div class="grid grid-cols-6 lg:gap-x-1 font-mono">
           <div class="flex flex-col items-center">
             <span class="uppercase text-yellow-300 text-xs">shift</span>
             <div class="w-6 h-6 rounded-full bg-gray-400 border-2 border-gray-900 hover:bg-gray-300 cursor-pointer">
@@ -64,8 +64,9 @@
             </div>
           </div>
           <div class="flex flex-col items-center">
-            <span class="uppercase text-white text-xs">
-              menu <span class="text-yellow-300">setup</span>
+            <span class="uppercase text-white text-xs -space-x-3 lg:-space-x-0">
+              <span class="relative -left-2 lg:-left-0">menu</span>
+              <span class="text-yellow-300">setup</span>
             </span>
             <div class="w-6 h-6 rounded-full bg-gray-400 border-2 border-gray-900 hover:bg-gray-300 cursor-pointer">
             </div>
@@ -78,7 +79,7 @@
           <div class="flex flex-col items-center">
             <span class="uppercase text-yellow-300 text-xs">or</span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer uppercase text-xs text-center font-semibold border-2 border-gray-900 p-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer uppercase text-xs text-center font-semibold border-2 border-gray-900 p-1">
               optn</div>
           </div>
           <div class="flex flex-col items-center">
@@ -87,7 +88,7 @@
               <span class="text-pink-500">=</span>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer uppercase text-xs text-center font-semibold border-2 border-gray-900 p-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer uppercase text-xs text-center font-semibold border-2 border-gray-900 p-1">
               calc</div>
           </div>
           <div class="flex flex-col items-center col-start-5">
@@ -106,7 +107,7 @@
               </sub>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer uppercase text-xs text-center font-semibold border-2 border-gray-900 p-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer uppercase text-xs text-center font-semibold border-2 border-gray-900 p-1">
               <span class="pl-1">
                 &#x222b;
                 <sub class="relative -left-2 -bottom-1">
@@ -131,7 +132,7 @@
               <small class="relative -left-4">&#x25A0;</small>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
               <var>x</var>
             </div>
           </div>
@@ -145,7 +146,7 @@
               </span>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer uppercase text-xs text-center font-semibold border-2 border-gray-900 p-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer uppercase text-xs text-center font-semibold border-2 border-gray-900 p-1">
               <span class="relative -top-1">
                 <sup class="relative left-4">&#x25A0;</sup>
                 <hr class="border border-white inline-block w-3 relative left-0.5" />
@@ -160,7 +161,7 @@
               <span>&#x25A0;</span>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer uppercase text-xs text-center font-semibold border-2 border-gray-900 p-1 -space-x-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer uppercase text-xs text-center font-semibold border-2 border-gray-900 p-1 -space-x-1">
               <span>&Sqrt;</span>
               <span>&#x25A0;</span>
             </div>
@@ -174,7 +175,7 @@
               <small class="uppercase text-blue-300">dec</small>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1 -space-x-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1 -space-x-1">
               <var>x</var>
               <sup>2</sup>
             </div>
@@ -189,7 +190,7 @@
               <small class="uppercase text-blue-300">hex</small>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1 -space-x-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1 -space-x-1">
               <var>x</var>
               <sup>&#x25A0;</sup>
             </div>
@@ -203,7 +204,7 @@
               <small class="uppercase text-blue-300">bin</small>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1 -space-x-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1 -space-x-1">
               <span>log</span>
               <sub>&#x25A0;</sub>
               <span>&#x25A1;</span>
@@ -218,7 +219,7 @@
               <small class="uppercase text-blue-300">oct</small>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
               ln
             </div>
           </div>
@@ -236,7 +237,7 @@
               </span>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
               (&minus;)
             </div>
           </div>
@@ -254,7 +255,7 @@
               </span>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
               &deg;
               &lsquo;
               &rdquo;
@@ -274,7 +275,7 @@
               </span>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1 -space-x-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1 -space-x-1">
               <var>x</var>
               <sup>-1</sup>
             </div>
@@ -296,7 +297,7 @@
               </span>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
               sin
             </div>
           </div>
@@ -317,7 +318,7 @@
               </span>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
               cos
             </div>
           </div>
@@ -338,7 +339,7 @@
               </span>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
               tan
             </div>
           </div>
@@ -347,7 +348,7 @@
               recall
             </span>
             <div
-              class="uppercase rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
+              class="uppercase w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
               sto
             </div>
           </div>
@@ -363,7 +364,7 @@
               <span class="text-blue-700">|</span>
             </span>
             <div
-              class="uppercase rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
+              class="uppercase w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
               eng
             </div>
           </div>
@@ -372,7 +373,7 @@
               Abs
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
               (
             </div>
           </div>
@@ -382,7 +383,7 @@
               <var class="text-pink-500">x</var>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1">
               )
             </div>
           </div>
@@ -407,7 +408,7 @@
               <var class="text-pink-500">y</var>
             </span>
             <div
-              class="rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1 -space-x-1.5">
+              class="w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1 -space-x-1.5">
               <span>S</span>
               <span class="-space-x-2.5">
                 <span>&lsaquo;</span>
@@ -425,7 +426,7 @@
               <var class="text-pink-500 uppercase">m</var>
             </span>
             <div
-              class="uppercase rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1 -space-x-1.5">
+              class="uppercase w-full rounded text-white bg-gray-600 hover:bg-gray-500 cursor-pointer text-xs text-center font-semibold border-2 border-gray-900 p-1 -space-x-1.5">
               m+
             </div>
           </div>
@@ -475,7 +476,7 @@
               off
             </span>
             <div
-              class="uppercase w-full rounded bg-blue-700 hover:bg-blue-600 cursor-pointer text-center font-semibold border border-gray-100 p-1 text-white">
+              class="uppercase w-full rounded rounded-tr-xl bg-blue-700 hover:bg-blue-600 cursor-pointer text-center font-semibold border border-gray-100 p-1 text-white">
               ac
             </div>
           </div>
@@ -562,7 +563,7 @@
               Rnd
             </span>
             <div
-              class="w-full rounded bg-gray-100 hover:bg-gray-200 cursor-pointer text-center font-semibold border-2 border-gray-900 p-1">
+              class="w-full rounded rounded-bl-xl bg-gray-100 hover:bg-gray-200 cursor-pointer text-center font-semibold border-2 border-gray-900 p-1">
               0
             </div>
           </div>
@@ -607,7 +608,7 @@
               &#x2248;
             </span>
             <div
-              class="w-full rounded bg-gray-100 hover:bg-gray-200 cursor-pointer text-center font-semibold border-2 border-gray-900 p-1">
+              class="w-full rounded rounded-br-xl bg-gray-100 hover:bg-gray-200 cursor-pointer text-center font-semibold border-2 border-gray-900 p-1">
               &equals;
             </div>
           </div>
